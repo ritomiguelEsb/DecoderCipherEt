@@ -20,9 +20,49 @@ namespace DecoderCipher
         private string finalText = "";
         int loop = 0;
         Random random;
+
+
+        private void Change(bool a)
+        {
+            if(a)
+            {
+                pictureBox1.Enabled = a;
+                pictureBox1.Visible = a;
+                pictureBox2.Enabled = a;
+                pictureBox2.Visible = a;
+                pictureBox3.Enabled = a;
+                pictureBox3.Visible = a;
+                pictureBox4.Enabled = a;
+                pictureBox4.Visible = a;
+                pictureBox5.Enabled = a;
+                pictureBox5.Visible = a;
+                pictureBox6.Enabled = a;
+                pictureBox6.Visible = a;
+                pictureBox7.Enabled = a;
+                pictureBox7.Visible = a;
+                pictureBox8.Enabled = a;
+                pictureBox8.Visible = a;
+                pictureBox9.Enabled = a;
+                pictureBox9.Visible = a;
+            }
+            else
+            {
+                pictureBox1.Enabled = a;
+                pictureBox2.Enabled = a;
+                pictureBox3.Enabled = a;
+                pictureBox4.Enabled = a;
+                pictureBox5.Enabled = a;
+                pictureBox6.Enabled = a;
+                pictureBox7.Enabled = a;
+                pictureBox8.Enabled = a;
+                pictureBox9.Enabled = a;
+            }
+        }
         private void button1_Click(object sender, EventArgs e)
         {
-            progressBar1.ForeColor = Color.Black;
+            progressBar1.Visible = true;
+            Change(true);
+            progressBar1.ForeColor = Color.Green;
             progressBar1.Value = 0;
             finalText = "";
             random = new Random();
@@ -112,6 +152,7 @@ namespace DecoderCipher
                 
                 textBox3.Text = finalText;
                 loop = 0;
+                Change(false);
             }
         }
 
@@ -131,6 +172,11 @@ namespace DecoderCipher
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
         {
 
         }

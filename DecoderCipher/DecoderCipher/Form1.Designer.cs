@@ -93,16 +93,13 @@
             // progressBar1
             // 
             this.progressBar1.BackColor = System.Drawing.Color.Black;
-            this.progressBar1.ForeColor = System.Drawing.Color.White;
-<<<<<<< HEAD
+            this.progressBar1.ForeColor = System.Drawing.Color.Black;
             this.progressBar1.Location = new System.Drawing.Point(129, 219);
-=======
-            this.progressBar1.Location = new System.Drawing.Point(90, 261);
->>>>>>> e57329a864c1fe93e5cd80bc17019c6100212533
             this.progressBar1.Maximum = 500;
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(558, 47);
             this.progressBar1.TabIndex = 4;
+            this.progressBar1.Visible = false;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
             // timer1
@@ -128,14 +125,10 @@
             this.pictureBox1.Image = global::DecoderCipher.Properties.Resources.kqFNR0;
             this.pictureBox1.Location = new System.Drawing.Point(-17, -3);
             this.pictureBox1.Name = "pictureBox1";
-<<<<<<< HEAD
             this.pictureBox1.Size = new System.Drawing.Size(100, 463);
-=======
-            this.pictureBox1.Size = new System.Drawing.Size(812, 488);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
->>>>>>> e57329a864c1fe93e5cd80bc17019c6100212533
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
             // 
             // pictureBox2
             // 
@@ -145,6 +138,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(100, 463);
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
             // 
             // pictureBox3
             // 
@@ -154,6 +148,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(100, 463);
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Visible = false;
             // 
             // pictureBox4
             // 
@@ -163,6 +158,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(100, 463);
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Visible = false;
             // 
             // pictureBox5
             // 
@@ -172,6 +168,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(100, 463);
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Visible = false;
             // 
             // pictureBox6
             // 
@@ -181,6 +178,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(100, 463);
             this.pictureBox6.TabIndex = 10;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Visible = false;
             // 
             // pictureBox7
             // 
@@ -190,6 +188,8 @@
             this.pictureBox7.Size = new System.Drawing.Size(100, 463);
             this.pictureBox7.TabIndex = 11;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Visible = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox8
             // 
@@ -199,6 +199,7 @@
             this.pictureBox8.Size = new System.Drawing.Size(100, 463);
             this.pictureBox8.TabIndex = 12;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Visible = false;
             // 
             // pictureBox9
             // 
@@ -208,6 +209,7 @@
             this.pictureBox9.Size = new System.Drawing.Size(73, 463);
             this.pictureBox9.TabIndex = 13;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Visible = false;
             // 
             // Form1
             // 

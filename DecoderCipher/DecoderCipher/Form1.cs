@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace DecoderCipher
 {
@@ -21,6 +22,7 @@ namespace DecoderCipher
         Random random;
         private void button1_Click(object sender, EventArgs e)
         {
+            progressBar1.ForeColor = Color.Black;
             progressBar1.Value = 0;
             finalText = "";
             random = new Random();

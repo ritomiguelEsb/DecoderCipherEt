@@ -122,16 +122,12 @@ namespace DecoderCipher
 
         private void progressBar1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            
-=======
 
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
->>>>>>> aedaf370487d3236d79f2eb98b6c1df5a73e33f5
         }
     }
 }

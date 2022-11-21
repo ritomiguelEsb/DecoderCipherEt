@@ -94,7 +94,11 @@
             // 
             this.progressBar1.BackColor = System.Drawing.Color.Black;
             this.progressBar1.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             this.progressBar1.Location = new System.Drawing.Point(129, 219);
+=======
+            this.progressBar1.Location = new System.Drawing.Point(90, 261);
+>>>>>>> e57329a864c1fe93e5cd80bc17019c6100212533
             this.progressBar1.Maximum = 500;
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(558, 47);
@@ -124,7 +128,12 @@
             this.pictureBox1.Image = global::DecoderCipher.Properties.Resources.kqFNR0;
             this.pictureBox1.Location = new System.Drawing.Point(-17, -3);
             this.pictureBox1.Name = "pictureBox1";
+<<<<<<< HEAD
             this.pictureBox1.Size = new System.Drawing.Size(100, 463);
+=======
+            this.pictureBox1.Size = new System.Drawing.Size(812, 488);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+>>>>>>> e57329a864c1fe93e5cd80bc17019c6100212533
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 

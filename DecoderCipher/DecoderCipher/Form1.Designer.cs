@@ -74,31 +74,11 @@
             this.textBox3.Size = new System.Drawing.Size(645, 53);
             this.textBox3.TabIndex = 2;
             // 
-<<<<<<< HEAD
-=======
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(349, 367);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 62);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Decodificar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
->>>>>>> 5bd51e202c63a1d317e5b5d5b7fa76c5db5dd81b
             // progressBar1
             // 
             this.progressBar1.BackColor = System.Drawing.Color.PeachPuff;
             this.progressBar1.ForeColor = System.Drawing.Color.White;
-<<<<<<< HEAD
             this.progressBar1.Location = new System.Drawing.Point(90, 261);
-=======
-            this.progressBar1.Location = new System.Drawing.Point(89, 250);
->>>>>>> 5bd51e202c63a1d317e5b5d5b7fa76c5db5dd81b
             this.progressBar1.Maximum = 500;
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(645, 52);
@@ -128,7 +108,7 @@
             this.pictureBox1.Image = global::DecoderCipher.Properties.Resources.d52c500d924ae9ce1aae0522f3b59ee6;
             this.pictureBox1.Location = new System.Drawing.Point(-10, -28);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(827, 592);
+            this.pictureBox1.Size = new System.Drawing.Size(812, 488);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;

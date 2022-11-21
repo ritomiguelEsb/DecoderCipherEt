@@ -76,14 +76,24 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 62);
             this.button1.TabIndex = 3;
+<<<<<<< HEAD
             this.button1.Text = "Converter";
             this.button1.UseVisualStyleBackColor = false;
+=======
+            this.button1.Text = "Decodificar";
+            this.button1.UseVisualStyleBackColor = true;
+>>>>>>> 4176fdc5457df437dffa744b350858d2cef2ffa8
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // progressBar1
             // 
+<<<<<<< HEAD
             this.progressBar1.BackColor = System.Drawing.Color.PeachPuff;
             this.progressBar1.Location = new System.Drawing.Point(32, 261);
+=======
+            this.progressBar1.Location = new System.Drawing.Point(90, 261);
+            this.progressBar1.Maximum = 500;
+>>>>>>> 4176fdc5457df437dffa744b350858d2cef2ffa8
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(492, 43);
             this.progressBar1.TabIndex = 4;

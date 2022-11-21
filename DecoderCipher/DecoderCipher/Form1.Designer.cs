@@ -33,9 +33,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -44,6 +44,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.Black;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(89, 53);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -55,6 +56,7 @@
             // 
             this.textBox2.BackColor = System.Drawing.Color.Black;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(89, 138);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -65,50 +67,19 @@
             // 
             this.textBox3.BackColor = System.Drawing.Color.Black;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.Color.White;
             this.textBox3.Location = new System.Drawing.Point(89, 308);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(645, 53);
             this.textBox3.TabIndex = 2;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(349, 367);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 62);
-            this.button1.TabIndex = 3;
-<<<<<<< HEAD
-            this.button1.Text = "Converter";
-            this.button1.UseVisualStyleBackColor = false;
-=======
-
-            this.button1.Text = "Converter";
-            this.button1.UseVisualStyleBackColor = false;
-
-            this.button1.Text = "Decodificar";
-            this.button1.UseVisualStyleBackColor = true;
-
->>>>>>> d4f7ed6a5d13efb5273119867f93168a3dcf88ce
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // progressBar1
             // 
-<<<<<<< HEAD
-            this.progressBar1.BackColor = System.Drawing.Color.Black;
-            this.progressBar1.ForeColor = System.Drawing.Color.White;
-            this.progressBar1.Location = new System.Drawing.Point(89, 241);
-=======
-
             this.progressBar1.BackColor = System.Drawing.Color.PeachPuff;
-            this.progressBar1.Location = new System.Drawing.Point(32, 261);
-
+            this.progressBar1.ForeColor = System.Drawing.Color.White;
             this.progressBar1.Location = new System.Drawing.Point(90, 261);
             this.progressBar1.Maximum = 500;
-
->>>>>>> d4f7ed6a5d13efb5273119867f93168a3dcf88ce
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(645, 52);
             this.progressBar1.TabIndex = 4;
@@ -119,12 +90,25 @@
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(349, 367);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(133, 62);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Decodificar";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::DecoderCipher.Properties.Resources._9kGQ;
-            this.pictureBox1.Location = new System.Drawing.Point(-6, -18);
+            this.pictureBox1.Image = global::DecoderCipher.Properties.Resources.d52c500d924ae9ce1aae0522f3b59ee6;
+            this.pictureBox1.Location = new System.Drawing.Point(-10, -28);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(824, 576);
+            this.pictureBox1.Size = new System.Drawing.Size(827, 592);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;

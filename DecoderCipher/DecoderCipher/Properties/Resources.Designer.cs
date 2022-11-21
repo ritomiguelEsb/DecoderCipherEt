@@ -83,6 +83,16 @@ namespace DecoderCipher.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2090371 {
+            get {
+                object obj = ResourceManager.GetObject("2090371", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _29537 {
             get {
                 object obj = ResourceManager.GetObject("29537", resourceCulture);
@@ -103,6 +113,16 @@ namespace DecoderCipher.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _7298a259e46ced8d8d636b3081a1ed57 {
+            get {
+                object obj = ResourceManager.GetObject("7298a259e46ced8d8d636b3081a1ed57", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _9kGQ {
             get {
                 object obj = ResourceManager.GetObject("9kGQ", resourceCulture);
@@ -116,6 +136,26 @@ namespace DecoderCipher.Properties {
         internal static System.Drawing.Bitmap background_1824828_1920 {
             get {
                 object obj = ResourceManager.GetObject("background-1824828_1920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap d52c500d924ae9ce1aae0522f3b59ee6 {
+            get {
+                object obj = ResourceManager.GetObject("d52c500d924ae9ce1aae0522f3b59ee6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hackersec_logo_loading_min_665x720 {
+            get {
+                object obj = ResourceManager.GetObject("hackersec-logo-loading-min-665x720", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

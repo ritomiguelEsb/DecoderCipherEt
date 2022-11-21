@@ -73,6 +73,16 @@ namespace DecoderCipher.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _209037 {
+            get {
+                object obj = ResourceManager.GetObject("209037", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _29537 {
             get {
                 object obj = ResourceManager.GetObject("29537", resourceCulture);
@@ -86,6 +96,16 @@ namespace DecoderCipher.Properties {
         internal static System.Drawing.Bitmap _2e23a2b7fd971ebf37f7d859e954cd8b {
             get {
                 object obj = ResourceManager.GetObject("2e23a2b7fd971ebf37f7d859e954cd8b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9kGQ {
+            get {
+                object obj = ResourceManager.GetObject("9kGQ", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
